@@ -1,6 +1,3 @@
-# Install requirements:
-pip install -f requirements.txt
-
 # Add CloudFlare DDNS as service
 cat >/etc/systemd/system/ddns.service << EOL
 [Unit]
@@ -9,7 +6,7 @@ After=network.target
 
 [Service]
 Environment=PYTHONUNBUFFERED=1
-ExecStart=/usr/bin/python3 /opt/CloudFlare-DDNS/ddns.py
+ExecStart=/usr/bin/python3 /opt/Cloudflare-DDNS/ddns.py
 Restart=always
 KillSignal=SIGQUIT
 Type=notify
