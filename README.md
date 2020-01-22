@@ -8,6 +8,9 @@ Using Cloudflare service IP address is updated dinamically if your ISP provider 
 ## DNS Settings  
 edit config.py 
 
+## Install requirements:
+pip install -f requirements.txt
+
 ## Install requirements
 ./install.sh
 ## Install and configure as service (systemd) to start automatically
