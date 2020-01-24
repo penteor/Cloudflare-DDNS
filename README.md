@@ -16,4 +16,4 @@ pip install -f requirements.txt
 ## Install and configure as service (systemd) to start automatically
 ./ddns.py configure
 ## Service start/stop/status/restart
-service  ddns [start / stop / status / restart]
+service  ddns [start / stop / status]
