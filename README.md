@@ -9,7 +9,7 @@ Using Cloudflare service IP address is updated dinamically if your ISP provider 
 edit config.py 
 
 ## Install requirements:
-pip install -f requirements.txt
+pip install -r requirements.txt
 
 ## Install requirements
 ./install.sh
